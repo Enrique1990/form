@@ -1,0 +1,53 @@
+body{
+    margin: 0;
+    padding: 0;
+}header{
+    border-bottom: 1px solid black;
+    font-size: 30px;
+    padding: 3px;
+    min-width:96vw;
+    max-width: 96vw;
+    min-height:10vh;
+    padding: 4vh 2vw 0vh 2vw;
+
+}
+header span {
+    float: right;
+    margin-right: 6vw;
+}
+header a{
+    font-size: 14px;
+}
+.sidebar{
+    display: inline-block;
+    border-right:1px solid black;
+    min-width: 30vw;
+    min-height: 78vh;
+    
+
+}
+main{
+    position:absolute;
+    display: inline-block;
+    min-width: 69vw;
+    min-height: 78vh;
+}
+.footer{
+    position: absolute;
+    border-top: 1px solid black;
+    min-width: 100vw;
+    display:inline-block;
+    padding: 10px;
+}
+
+#info {
+    font-weight: bold;
+    margin-right: 6vw;
+}
+form{
+    margin:10vh ovw ovh 24vw;
+}
+form input{
+    display:block;
+    margin-bottom:3vh;
+}
